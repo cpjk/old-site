@@ -5,10 +5,18 @@ body {
 }
 
 #page{
-    padding-left: 44%;
+
 }
 
 #header {
+    padding-left: 42.5%;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-size: 300%;
+}
+
+#bio {
+    padding-left: 28%;
     font-family: "open sans", sans-serif;
     font-weight: 300;
     font-size: 200%;
