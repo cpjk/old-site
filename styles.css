@@ -1,28 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
 
 body {
-    background-image: url("images/ticks.png");
+    /*background-image: url("images/ticks.png");
+    */
 }
 
 #page{
     text-align: center;
-    min-width: 800px;
+    min-width: 850px;
+    font-weight: 300;
     font-family: "open sans", sans-serif;
 }
 
 #header {
     margin: 10px auto 10px auto;
-    /*font-family: "open sans", sans-serif;*/
-    font-weight: 300;
     font-size: 300%;
 }
 
-#bio {
+#about {
     margin: 10px auto 10px auto;
     width: 800px;
-    /*font-family: "open sans", sans-serif;*/
-    font-weight: 300;
-    font-size: 200%;
+    font-size: 120%;
 }
 
 #navigation {
@@ -31,13 +29,23 @@ body {
     padding-right: 35px;
 }
 
-li { 
-    padding: 20px;
-    font-weight: 300;
+li {
+    margin: 10px 10px 10px 10px;
     font-size: 150%;
     display: inline;
 }
+
 li:hover{
-    background-color: #0088FF;
-    border
+    border-bottom: 4px solid black;
+    
+}
+
+#page a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#page a:visited{
+    text-decoration: none;
+    color: black;
 }
