@@ -31,12 +31,12 @@ li {
     font-weight: 310;
     display: inline;
 }
-
+/*
 li:hover{
     border-bottom: 4px solid black;
     
 }
-
+*/
 #page a:link{
     text-decoration: none;
     color: black;
@@ -45,4 +45,10 @@ li:hover{
 #page a:visited{
     text-decoration: none;
     color: black;
+}
+
+#bio {
+    text-align: center;
+    font-size: 125%;
+    color: #444;
 }
