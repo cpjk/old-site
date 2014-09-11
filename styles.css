@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
 
-body {
-    /*background-image: url("images/ticks.png");
-    */
-}
-
 #page{
     text-align: center;
     min-width: 550px;
@@ -31,12 +26,7 @@ li {
     font-weight: 310;
     display: inline;
 }
-/*
-li:hover{
-    border-bottom: 4px solid black;
-    
-}
-*/
+
 #page a:link{
     text-decoration: none;
     color: black;
@@ -51,6 +41,15 @@ li:hover{
     text-align: center;
     font-size: 125%;
     color: #444;
+}
+
+.bio-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.bio-para {
+  margin-bottom: 5px
 }
 
 a {
